@@ -1,0 +1,68 @@
+1.JSON iterate.
+JSON for
+var veg=[
+{"name":"carrot","vitamin":"A"},
+{"name":"spinach","vitamin":"K"}
+];
+for(var i=0;i<veg.length;i++)
+{
+console.log(veg[i].name+" "+veg[i].vitamin);
+}
+
+JSON for in
+var student={
+"Name:":"Reshma",
+"Roll number:":"23",
+"Standard:":"5th"
+};
+for(var i in student){
+console.log(i,student[i]);
+}
+2.Resume in JSON format
+var resume={
+"Name:":"Aswitha A",
+"Mobile number:":"8220920876",
+"mail-id:":"1112aswitha@gmail.com",
+"Date of Birth:":"16-10-1995",
+"Address:":"Adambakkam,Chennai",
+"Education:":"Bachelor of Engineering",
+"Stream:":"Electronics and Communication",
+"College:":"St.Xavier catholic College of Engineering,Nagercoil",
+"Project Work:":"Speckle Denoising in Digital Image Processing",
+"Personality Traits:":"Adaptability,Willingness to learn new things",
+"Interest:":"Gaming,Travelling",
+"Nationality:":"Indian",
+"Gender:":"Female",
+"Marital Status:":"Married",
+"Languages Known:":"English,Tamil,Malayalam",
+"Declaration:":"I do heraby declare that the particulars of information and facts stated herein are correct to the best of my knowledge and belief "
+
+}
+for(var i in resume){
+console.log(i,resume[i]);
+}
+3.Difference between window,screen and document in js.
+Window-
+   Window is the main js object root,global object in a browser.
+   It is the first thing that gets loaded into the Browser.
+   Their properties are length,innerWidth,name.
+   Window has everthing so we can call window.screen and window.document. 
+Screen
+   window screen object contain information about the users screen.
+   Their properties are width,height,pixelDepth etc.
+   
+Document
+   document is the main object of the potentially visible document object model(DOM).
+   It is initialized by parsing HTML.
+    
+
+
+
+
+
+
+
+
+
+
+
